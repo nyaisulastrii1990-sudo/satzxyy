@@ -61,7 +61,7 @@ const {
   BufferJSON,
   DisconnectReason,
   proto,
-} = require('@whiskeysockets/baileys');
+} = require("@bellachu/baileys");
 const pino = require('pino');
 const crypto = require('crypto');
 const chalk = require('chalk');
