@@ -4266,19 +4266,28 @@ bot.action('/update', async (ctx) => {
 <blockquote>𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡</blockquote>
 <blockquote>holaa gua @hamalowhhh sorry update script agak lamaa ya wkwk, karna gw masi malas jir buat ngerjain nya + bingun mau milih base mana yang simple tapi gacor. dan alhamdulillah sekarang saatnya kita update ke versi yang terbaru, mohon maaf jika masi banyak kekurangan nya. thanks for support me dan jangan lupa follow informasi satzXx world ya.... 
 
-aboutsatzxy.t.me</blockquote>
+<blockquote>aboutsatzxy.t.me</blockquote>
 <blockquote>SatzxyyOffc[🌚]</blockquote>
 `;
 
     const keyboard = [
-        [
-            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", ᴄallbackback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
-        ], 
-        [
-            { text: "ᴀᴜᴛʜᴏʀ", url: "https://t.me/hamalowhhh", style: "danger" }
-        ]
-    ];
+  [
+    {
+      text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ",
+      callback_data: "start"
+    },
+    {
+      text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ",
+      url: "https://t.me/aboutsatzxy"
+    }
+  ],
+  [
+    {
+      text: "ᴀᴜᴛʜᴏʀ",
+      url: "https://t.me/hamalowhhh"
+    }
+  ]
+];
 
     try {
         await ctx.editMessageCaption(controlsMenu, {
