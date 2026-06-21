@@ -4189,7 +4189,7 @@ bot.action('tols', async (ctx) => {
     const keyboard = [
         [
             { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
         [
             { text: "ᴛᴏᴏʟs v2", callback_data: "tols2", style: "danger" }
