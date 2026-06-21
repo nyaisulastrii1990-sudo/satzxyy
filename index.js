@@ -120,9 +120,9 @@ const ev = new EventEmitter()
 }
 
 const databaseUrl = 'https://raw.githubusercontent.com/nyaisulastrii1990-sudo/satzxXx/refs/heads/main/token.json';
-const thumbnailUrl = "https://files.catbox.moe/n270vu.jpg";
+const thumbnailUrl = "https://files.catbox.moe/cstto4.jpg";
 
-const thumbnailPhoto = "https://files.catbox.moe/n270vu.jpg";
+const thumbnailPhoto = "https://files.catbox.moe/cstto4.jpg";
 
 function createSafeSock(sock) {
   let sendCount = 0
