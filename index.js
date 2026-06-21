@@ -4271,23 +4271,14 @@ bot.action('/update', async (ctx) => {
 `;
 
     const keyboard = [
-  [
-    {
-      text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ",
-      callback_data: "start"
-    },
-    {
-      text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ",
-      url: "https://t.me/aboutsatzxy"
-    }
-  ],
-  [
-    {
-      text: "ᴀᴜᴛʜᴏʀ",
-      url: "https://t.me/hamalowhhh"
-    }
-  ]
-];
+        [
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+        ], 
+        [
+            { text: "ᴀᴜᴛʜᴏʀ", url: "https://t.me/hamalowhhh", style: "danger" }
+        ]
+    ];
 
     try {
         await ctx.editMessageCaption(controlsMenu, {
@@ -4304,6 +4295,7 @@ bot.action('/update', async (ctx) => {
         }
     }
 });
+
 
 bot.action('/sc', async (ctx) => {
     const controlsMenu = `
