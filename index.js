@@ -1198,7 +1198,7 @@ bot.command('hd', async (ctx) => {
     }
 });
 ///carigrup
-const DEVELOPER_ID = 7582105036; // ganti ke ID kamu
+const DEVELOPER_ID = 8859653999; // ganti ke ID kamu
 
 bot.command("report", async (ctx) => {
   try {
@@ -3985,55 +3985,55 @@ Hallo @hamalowhhh, Saya SatzxOffc selaku penanggung jawab project script satzxXx
 const keyboard = [
         [
           {
-          text: "(⚒) ᴀᴛᴛᴀᴄᴋ ☇ ᴍᴇɴᴜ",
+          text: "ᴀᴛᴛᴀᴄᴋ ☇ ᴍᴇɴᴜ",
           callback_data: "/bug",
           style: "success",
           },
         ], 
         [
           {
-           text: "(⎈) ᴀᴜᴛʜᴏʀ",
+           text: "ᴀᴜᴛʜᴏʀ",
            url: "https://t.me/hamalowhhh",
            style: "primary",
           },
           {
-          text: "(⇋) ʙᴜʏʏ ☇ sᴄʀɪᴘᴛ",
+          text: "ʙᴜʏʏ ☇ sᴄʀɪᴘᴛ",
           callback_data: "/sc",
           style: "primary",
           },
           {
-           text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ",
+           text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ",
            url: "https://t.me/aboutsatzxy",
            style: "success",
           },
         ], 
         [
           {
-           text: "(⚘) ᴛᴏᴏʟs ☇ ᴍᴇɴᴜ",
+           text: "ᴛᴏᴏʟs ☇ ᴍᴇɴᴜ",
            callback_data: "tols",
            style: "success",
           },
         ],
         [
           {
-           text: "(✇) ɢʀᴏᴜᴘ ☇ ᴍᴇɴᴜ",
+           text: "ɢʀᴏᴜᴘ ☇ ᴍᴇɴᴜ",
            callback_data: "/grup",
            style: "primary",
           },
           {
-           text: "(⚘)ፕዘልክጕነ ☇ ጠቿክሁ ",
+           text: "ᴛʜᴀɴᴋs ☇ ᴍᴇɴᴜ ",
            callback_data: "/tqto",
            style: "primary",
           },
           {
-           text: "(⛥) ᴄᴏɴᴛʀᴏʟ ☇ ᴍᴇɴᴜ",
+           text: "ᴄᴏɴᴛʀᴏʟ ☇ ᴍᴇɴᴜ",
            callback_data: "/controls",
            style: "primary",
           },
         ], 
         [
            {
-            text: "(♽) ɪɴғᴏ ☇ ᴜᴘᴅᴀᴛᴇ",
+            text: "ɪɴғᴏ ☇ ᴜᴘᴅᴀᴛᴇ",
             callback_data: "/update",
             style: "danger",
             },
@@ -4090,55 +4090,55 @@ bot.action("/start", async (ctx) => {
   const keyboard = [
        [
           {
-          text: "(⚒) ᴀᴛᴛᴀᴄᴋ ☇ ᴍᴇɴᴜ",
+          text: "ᴀᴛᴛᴀᴄᴋ ☇ ᴍᴇɴᴜ",
           callback_data: "/bug",
           style: "success",
           },
         ], 
         [
           {
-           text: "(⎈) ᴀᴜᴛʜᴏʀ",
+           text: "ᴀᴜᴛʜᴏʀ",
            url: "https://t.me/hamalowhhh",
            style: "primary",
           },
           {
-          text: "(⇋) ʙᴜʏʏ ☇ sᴄʀɪᴘᴛ",
+          text: "ʙᴜʏʏ☇ sᴄʀɪᴘᴛ",
           callback_data: "/sc",
           style: "primary",
           },
           {
-           text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ",
+           text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ",
            url: "https://t.me/aboutsatzxy",
            style: "primary",
           },
         ], 
         [
           {
-           text: "(⚘) ᴛᴏᴏʟs ☇ ᴍᴇɴᴜ",
+           text: "ᴛᴏᴏʟs ☇ ᴍᴇɴᴜ",
            callback_data: "tols",
            style: "success",
           },
         ],
         [
           {
-           text: "(✇) ɢʀᴏᴜᴘ ☇ ᴍᴇɴᴜ",
+           text: "ɢʀᴏᴜᴘ ☇ ᴍᴇɴᴜ",
            callback_data: "/grup",
            style: "primary",
           },
           {
-           text: "(⚘)ፕዘልክጕነ ☇ ጠቿክሁ ",
+           text: "ᴛʜᴀɴᴋs ↯ ᴍᴇɴᴜ",
            callback_data: "/tqto",
            style: "primary",
           },
           {
-           text: "(⛥) ᴄᴏɴᴛʀᴏʟ ☇ ᴍᴇɴᴜ",
+           text: "ᴄᴏɴᴛʀᴏʟ ☇ ᴍᴇɴᴜ",
            callback_data: "/controls",
            style: "primary",
           },
         ], 
         [
            {
-            text: "(♽) ɪɴғᴏ ☇ ᴜᴘᴅᴀᴛᴇ",
+            text: "ɪɴғᴏ ☇ ᴜᴘᴅᴀᴛᴇ",
             callback_data: "/update",
             style: "danger",
             },
@@ -4188,11 +4188,11 @@ bot.action('tols', async (ctx) => {
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
             { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
         [
-            { text: "(⟳) ᴛᴏᴏʟs v2", callback_data: "tols2", style: "danger" }
+            { text: "ᴛᴏᴏʟs v2", callback_data: "tols2", style: "danger" }
         ]
     ];
 
@@ -4235,8 +4235,8 @@ tools report to developer
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ": url: "https://t.me/aboutsatzxy", style: "success" }
         ]
     ];
 
@@ -4272,11 +4272,11 @@ aboutsatzxy.t.me</blockquote>
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", ᴄallbackback_data: "/start", style: "primary" },
             { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
         [
-            { text: "(⎈) ᴀᴜᴛʜᴏʀ", url: "https://t.me/hamalowhhh", style: "danger" }
+            { text: "ᴀᴜᴛʜᴏʀ", url: "https://t.me/hamalowhhh", style: "danger" }
         ]
     ];
 
@@ -4317,11 +4317,11 @@ mendapatkan Base satzx world dan Mendapatkan acces database
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
         [
-            { text: "(⎈) ᴀᴜᴛʜᴏʀ", url: "https://t.me/hamalowhhh", style: "danger" }
+            { text: "ᴀᴜᴛʜᴏʀ", url: "https://t.me/hamalowhhh", style: "danger" }
         ]
     ];
 
@@ -4357,11 +4357,11 @@ bot.action('/grup', async (ctx) => {
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
         [
-            { text: "(⟳) ɢʀᴏᴜᴘs v2", callback_data: "/grup2", style: "danger" }
+            { text: "ɢʀᴏᴜᴘs v2", callback_data: "/grup2", style: "danger" }
         ]
     ];
 
@@ -4399,8 +4399,8 @@ bot.action('/grup2', async (ctx) => {
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ]
     ];
 
@@ -4436,8 +4436,8 @@ bot.action('/controls', async (ctx) => {
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
     ];
 
@@ -4473,11 +4473,11 @@ bot.action('/bug', async (ctx) => {
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ],
         [
-           { text: "(⟴) ʙᴜɢ ɪɴᴠɪsɪʙʟᴇ", callback_data: "/invisible", style: "danger" }
+           { text: "ʙᴜɢ ɪɴᴠɪsɪʙʟᴇ", callback_data: "/invisible", style: "danger" }
         ]
     ];
 
@@ -4511,8 +4511,8 @@ bot.action('/invisible', async (ctx) => {
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
     ];
 
@@ -4551,8 +4551,8 @@ bot.action('/tqto', async (ctx) => {
 
     const keyboard = [
         [
-            { text: "(⟲) ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
-            { text: "(⎊) ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
+            { text: "ʙᴀᴄᴋ ᴛᴏ ᴍᴇɴᴜ", callback_data: "/start", style: "primary" },
+            { text: "ᴄʜᴀɴɴᴇʟ ᴀᴜᴛʜᴏʀ", url: "https://t.me/aboutsatzxy", style: "success" }
         ], 
     ];
 
